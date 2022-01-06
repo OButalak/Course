@@ -1,56 +1,13 @@
-// import 'package:flutter/material.dart';
-//
-// import 'secondpage.dart';
-//
-// void main() {
-//   runApp(MyApp());
-// }
-//
-// class MyApp extends StatelessWidget {
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       home: Scaffold(
-//         appBar: AppBar(
-//           title: Text('First Home Work'),
-//         ),
-//         body: firstPage(),
-//         floatingActionButton: FloatingActionButton(
-//           onPressed: () {
-//             Navigator.push(
-//               context,
-//               MaterialPageRoute(builder: (context) => SecondPage()),
-//             );
-//           }
-//         ),
-//       ),
-//     );
-//   }
-//   Widget firstPage() {
-//     return Column(
-//       children: [
-//         Center(child: Text('hello world')),
-//         Center(child: Image(image: AssetImage("assets/download.png"),),),
-//
-//       ],
-//     );
-//   }
-// }
-//
-//
-//
-//
-
 import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: FirstPage(),
+    home: MyApp(),
   ));
 }
 
-class FirstPage extends StatelessWidget {
-  const FirstPage({Key? key}) : super(key: key);
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
